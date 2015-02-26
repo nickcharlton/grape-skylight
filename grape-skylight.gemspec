@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'grape/skylight/version'
+require 'grape-skylight/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'grape-skylight'
-  spec.version       = Grape::Skylight::VERSION
+  spec.version       = Skylight::Grape::VERSION
   spec.authors       = ['Nick Charlton']
   spec.email         = ['nick@nickcharlton.net']
   spec.summary       = 'Middleware for instrumenting Grape with Skylight.io.'
